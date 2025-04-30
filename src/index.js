@@ -1,0 +1,11 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css"; // estilos globais
+import App from "./App"; // importa o App.js
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
